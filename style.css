@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background{
+    width: 60%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.inside{
+    width: 85%;
+    height: 85%;
+    background-color: #DEB887;
+}
+.navbar{
+    width: 100%;
+    height: 15%;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.menu{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu1{
+    width: 80%;
+    height: 60%;
+    font-weight: 500;
+   font-size: 1.2rem;
+}
+.coffeemenu{
+    width: 100%;
+    height: 20%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.flavor{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cost{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40%;
+}
+
+.menu2{
+    width: 80%;
+    height: 40%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.footer a{
+    color: #000000;
+}
+hr{
+  border: 2px solid #AA6166;
+  width: 90%;
+  margin-left: 30px;
+}
